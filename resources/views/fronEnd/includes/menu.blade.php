@@ -22,36 +22,7 @@
                     <li class="menu__item">
 
                         <a href="{{url('/category-view/'.$pcategory->id)}}" class="menu__link" >{{$pcategory->category_name}}</a>
-                           <!--  <ul class="dropdown-menu multi-column columns-3">
-                                <div class="row">
-                                    <div class="col-sm-6 multi-gd-img1 multi-gd-text ">
-                                        <a href="mens.html"><img src="{{asset('frontEnd/images/woo1.jpg')}}" alt=" "/></a>
-                                    </div>
-                                    <div class="col-sm-3 multi-gd-img">
-                                        <ul class="multi-column-dropdown">
-                                            <li><a href="{{url('/category')}}">Clothing</a></li>
-                                            <li><a href="mens.html">Wallets</a></li>
-                                             <li><a href="mens.html">Footwear</a></li>
-                                            <li><a href="mens.html">Watches</a></li>
-                                            <li><a href="mens.html">Accessories</a></li>
-                                            <li><a href="mens.html">Bags</a></li>
-                                            <li><a href="mens.html">Caps & Hats</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-3 multi-gd-img">
-                                        <ul class="multi-column-dropdown">
-                                            <li><a href="mens.html">Jewellery</a></li>
-                                            <li><a href="mens.html">Sunglasses</a></li>
-                                            <li><a href="mens.html">Perfumes</a></li>
-                                            <li><a href="mens.html">Beauty</a></li>
-                                            <li><a href="mens.html">Shirts</a></li>
-                                            <li><a href="mens.html">Sunglasses</a></li>
-                                            <li><a href="mens.html">Swimwear</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                </div>
-                            </ul> -->
+                           
                     </li>
                     @endforeach
                     

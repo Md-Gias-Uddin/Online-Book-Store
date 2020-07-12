@@ -7,11 +7,6 @@ HOME
 @section('mainContent')
 <!-- //banner-top -->
 <!-- banner -->
-<div class="page-head">
-	<div class="container">
-		<h3>Check Out</h3>
-	</div>
-</div>
 
 <!-- check out -->
 <div class="checkout">
